@@ -14,7 +14,7 @@ class App extends Component {
   componentDidMount() {
     let that = this;
 
-    fetch('http://ergast.com/api/f1/2019.json')
+    fetch('https://ergast.com/api/f1/2019.json')
       .then(function (response) {
         return response.json();
       })
