@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import './App.css';
+import f1img from "./f1-image.jpg";
 
 import ReactTable from 'react-table';
 
@@ -38,7 +39,6 @@ class App extends Component {
             month: 'long',
             day: 'numeric'
           });
-          debugger;
         });
 
         that.setState({races: races});
@@ -65,7 +65,7 @@ class App extends Component {
 
       return (
         <div>
-          <img className="logo" src='https://i1.wp.com/gas2.org/wp-content/uploads/2017/12/new-logo.jpg?w=400&ssl=1' />;
+          <img className="logo" src={f1img} alt="Logo" />;
           <ReactTable
             data={this.state.races}
             columns={columns}
