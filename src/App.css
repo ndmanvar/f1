@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'Formula1-Regular';
+  src: local('Formula1-Regular'),
+  url(./Formula1-Regular.otf) format('opentype');
+}
+
+.ReactTable {
+  font-family: Formula1-Regular;
+
+}
+
 img.logo {
   display: block;
   margin-left: auto;
@@ -14,10 +25,15 @@ img.logo {
 
 .rt-th {
   font-weight: bold;
-  text-decoration: underline;
-  font-style: italic;
+  /* text-decoration: underline; */
+  border: 3px solid black;
+  /* font-style: italic; */
 }
 
 .past {
   text-decoration: line-through;
+}
+
+.first-future-race {
+  border: 3px solid red;
 }

@@ -8,7 +8,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      races: []
+      races: [],
+      foundFirstFutureRace: false
     };
   }
 
@@ -60,7 +61,6 @@ class App extends Component {
       }, {
         Header: 'Date',
         accessor: 'date',
-        Cell: props => <span className={(new Date()) > (new Date(props.value)) ? "past" : "future"}>{props.value}</span>
       }];
 
       return (
@@ -71,6 +71,20 @@ class App extends Component {
             columns={columns}
             defaultPageSize={21}
             pageSizeOptions={[21]}
+            getTrProps = {
+              (state, rowInfo) => {
+                let obj = {};
+                if (rowInfo) {
+                  let isFutureFight = (new Date()) < (new Date(rowInfo.row.date));
+                  obj.className = isFutureFight ? "future" : "past"
+                  if (isFutureFight && !this.foundFirstFutureRace) {
+                    this.foundFirstFutureRace = true;
+                    obj.className += " first-future-race"
+                  }
+                }
+                return obj;
+              }
+            }
           />
         </div>
       );
