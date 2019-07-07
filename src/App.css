@@ -6,7 +6,7 @@
 
 .ReactTable {
   font-family: Formula1-Regular;
-
+  font-size: 12px;
 }
 
 img.logo {
@@ -25,9 +25,7 @@ img.logo {
 
 .rt-th {
   font-weight: bold;
-  /* text-decoration: underline; */
   border: 3px solid black;
-  /* font-style: italic; */
 }
 
 .past {
