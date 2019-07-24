@@ -1,8 +1,7 @@
 import React, { Component } from "react";
+import ReactTable from 'react-table';
 import './App.css';
 import f1img from "./f1-image.jpg";
-
-import ReactTable from 'react-table';
 
 class App extends Component {
   constructor(props) {
@@ -17,10 +16,8 @@ class App extends Component {
     let that = this;
 
     fetch('https://ergast.com/api/f1/2019.json')
-      .then(function (response) {
-        return response.json();
-      })
-      .then(function (data) {
+      .then(response => response.json())
+      .then(data => {
         let races = data.MRData.RaceTable.Races;
 
         races.forEach(race => {
