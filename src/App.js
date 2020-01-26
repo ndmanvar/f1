@@ -15,7 +15,7 @@ class App extends Component {
   componentDidMount() {
     let that = this;
 
-    fetch('https://ergast.com/api/f1/2019.json')
+    fetch('https://ergast.com/api/f1/2020.json')
       .then(response => response.json())
       .then(data => {
         let races = data.MRData.RaceTable.Races;
