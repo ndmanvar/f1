@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import ReactTable from 'react-table';
-import './App.css';
+import './css/App.css';
+import './css/ReactTable.css';
 import f1img from "./f1-image.jpg";
 
 class App extends Component {
