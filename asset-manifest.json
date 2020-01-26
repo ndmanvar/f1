@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/f1/static/css/main.1ae51868.chunk.css",
-    "main.js": "/f1/static/js/main.a2df9494.chunk.js",
-    "main.js.map": "/f1/static/js/main.a2df9494.chunk.js.map",
+    "main.css": "/f1/static/css/main.d31bf8ea.chunk.css",
+    "main.js": "/f1/static/js/main.2d89bc5c.chunk.js",
+    "main.js.map": "/f1/static/js/main.2d89bc5c.chunk.js.map",
     "runtime~main.js": "/f1/static/js/runtime~main.31fa7e79.js",
     "runtime~main.js.map": "/f1/static/js/runtime~main.31fa7e79.js.map",
     "static/js/2.de4f3e1f.chunk.js": "/f1/static/js/2.de4f3e1f.chunk.js",
     "static/js/2.de4f3e1f.chunk.js.map": "/f1/static/js/2.de4f3e1f.chunk.js.map",
     "index.html": "/f1/index.html",
-    "precache-manifest.59b695240a5c62beaa86a1279d5b179c.js": "/f1/precache-manifest.59b695240a5c62beaa86a1279d5b179c.js",
+    "precache-manifest.a6aecda9a9afe5c0a47c34bf9a0d6e08.js": "/f1/precache-manifest.a6aecda9a9afe5c0a47c34bf9a0d6e08.js",
     "service-worker.js": "/f1/service-worker.js",
-    "static/css/main.1ae51868.chunk.css.map": "/f1/static/css/main.1ae51868.chunk.css.map",
+    "static/css/main.d31bf8ea.chunk.css.map": "/f1/static/css/main.d31bf8ea.chunk.css.map",
     "static/media/App.css": "/f1/static/media/Formula1-Regular.b72680c3.otf"
   }
 }
