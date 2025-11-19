@@ -63,8 +63,8 @@ class RaceCalendar extends Component {
         <ReactTable
           data={this.state.races}
           columns={columns}
-          defaultPageSize={21}
-          pageSizeOptions={[21]}
+          defaultPageSize={24}
+          pageSizeOptions={[24]}
           showPagination={false}
           getTrProps={(state, rowInfo) => {
             let obj = {};
